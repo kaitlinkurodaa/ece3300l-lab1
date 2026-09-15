@@ -20,8 +20,35 @@ module tb_lab1();
 	#10;
 	b_in = 4'h1;
 	#10;
-//
-// fill in more test cases here
+	b_in = 4'h2;
+	#10;
+	b_in = 4'h3;
+	#10;
+	b_in = 4'h4;
+	#10;
+	b_in = 4'h5;
+	#10;
+	b_in = 4'h6;
+	#10;
+	b_in = 4'h7;
+	#10;
+	b_in = 4'h8;
+	#10;
+	b_in = 4'h9;
+	#10;
+	b_in = 4'hA;
+	#10;
+	b_in = 4'hB;
+	#10;
+	b_in = 4'hC;
+	#10;
+	b_in = 4'hD;
+	#10;
+	b_in = 4'hE;
+	#10;
+	b_in = 4'hF;
+	#10;
+
 //	
         $finish;
      end
