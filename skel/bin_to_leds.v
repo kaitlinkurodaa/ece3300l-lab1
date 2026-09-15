@@ -7,10 +7,16 @@ module bin_to_leds(
     
     always @(b_in)
         case(b_in)
-            0: leds = 7'b0111111;
-//
-// fill in the rest here
-//
+            0: leds = 7'b1111110;
+            1: leds = 7'b0110000;
+            2: leds = 7'b1101101;
+            3: leds = 7'b1111001;
+            4: leds = 7'b0110011;
+            5: leds = 7'b1011011;
+            6: leds = 7'b1011111;
+            7: leds = 7'b1110000;
+            8: leds = 7'b1111111;
+            9: leds = 7'b1111011;
             default: leds = 7'b0000000;
         endcase
 endmodule
